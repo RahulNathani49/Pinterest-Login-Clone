@@ -4,14 +4,14 @@ html,body{
     margin: 0;
     padding: 0;
     background-color: aqua;
-    background-image: url(https://cdn.pixabay.com/photo/2018/11/24/02/05/lichterkette-3834926__340.jpg);
+    background-image:
 }
 *{
     margin: 0;
 }
 .pinterest-login-box{
     width: 360px;
-    height: 72%;
+    overflow: auto;
     background-color: white;
     position: absolute;
     top: 50%;
@@ -19,7 +19,7 @@ html,body{
     transform:translate(-50%,-50%);
     border-radius: 8px;
     box-sizing: border-box;
-    padding: 10px 0 10px 0;
+    padding: 15px;
     
 }
 .p-top-logo{
